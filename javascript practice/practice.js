@@ -55,8 +55,22 @@ else
 }
 */
 
+/******************************************************** 
+
 function calAge(birthYear)
 {
     return( 2020 - birthYear);
 }
 console.log(calAge(1990));
+*/
+
+//************************************************************************
+/*
+var arrayExample = ['john', 1920, 'test'];
+//alert(arrayExample.length);
+alert(arrayExample.indexOf('john'));
+
+arrayExample[5]= 'marry';
+console.log(arrayExample);
+
+*/
