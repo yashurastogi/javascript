@@ -1,0 +1,14 @@
+How java script code runs :
+
+    our code ----- gets executed on javascript engine
+      -- firstly code is parsed by parser checking syntax of code to know whether it is correct
+      ---parser produces abstract syntax tree 
+      --- converted to machine code
+      --- then code runs (read by machine )
+      
+      all javascripts runs in environment (execution context) 
+      -- default context is global 
+      -- anythijng not inside in any funtion will get exectued 
+      --everything gets executed in windows object
+      --each time calling function will execute its own context
+        --
