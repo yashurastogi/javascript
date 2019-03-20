@@ -12,3 +12,14 @@ How java script code runs :
       --everything gets executed in windows object
       --each time calling function will execute its own context
         --
+1. creation phase
+   --create variable object
+        -- the argument object is created that contains all variables passsed
+        
+        Hoisting - 
+        -- all function declaartions all defined initially
+        -- all variable declaartion all are set to undefined and is defined at execution phase 
+   --creation of scope chain
+   -- determine value of this variabl
+ 2. execution phase
+    -- the code of the function that generated the current execution context is run line by line
