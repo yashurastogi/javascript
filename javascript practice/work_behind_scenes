@@ -20,6 +20,10 @@ How java script code runs :
         -- all function declaartions all defined initially
         -- all variable declaartion all are set to undefined and is defined at execution phase 
    --creation of scope chain
+        -- only way to create scope is to write functions
+        -- also in JS it is lexical funtion 
+            -- functions will inherit the properties of its parent function 
+        -- locally scoped variables are not avaliable to parents unlsess returned
    -- determine value of this variabl
  2. execution phase
     -- the code of the function that generated the current execution context is run line by line
